@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "railspeeder")(type "KiCad")(uri "C:/Users/Fish/Documents/GitHub/railspeeder-electrical/RailspeederLib/railspeeder.pretty")(options "")(descr ""))
+)
