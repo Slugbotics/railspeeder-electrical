@@ -200,7 +200,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 -1.16 90)
+			(at 2 -0.3625 180)
 			(layer "F.SilkS")
 			(uuid "f81b35d7-d2fb-41aa-a82c-8edc028c8f33")
 			(effects
@@ -413,7 +413,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0 -1.16 90)
+			(at -2 1 180)
 			(layer "F.SilkS")
 			(uuid "647777c6-6548-497e-aa1d-fda99e9ae021")
 			(effects
@@ -626,7 +626,7 @@
 		(descr "Molex 734 Male header (for PCBs); Straight solder pin 1 x 1 mm, 734-132 , 2 Pins (http://www.farnell.com/datasheets/2157639.pdf), generated with kicad-footprint-generator")
 		(tags "connector Wago  side entry")
 		(property "Reference" "SW1"
-			(at 1.9 -5.35 0)
+			(at 8.9 -3.9 0)
 			(layer "F.SilkS")
 			(uuid "9b97ab42-7ea2-4dc8-b7d6-47d87ff34e63")
 			(effects
@@ -1216,7 +1216,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R6"
-			(at 0 -1.17 0)
+			(at -2.1 -0.4 0)
 			(layer "F.SilkS")
 			(uuid "6cb53bff-5716-4c6b-85e0-335c4ccb997f")
 			(effects
@@ -1429,7 +1429,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at 0 -1.17 90)
+			(at 0 1.5 180)
 			(layer "F.SilkS")
 			(uuid "cc8b4f0b-cadf-4114-9dad-ec05acc6feb4")
 			(effects
@@ -1642,7 +1642,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 0 -1.16 360)
+			(at 2.55 -0.325 360)
 			(layer "F.SilkS")
 			(uuid "f039f531-3df1-435a-80b9-e6e161480fe7")
 			(effects
@@ -1855,7 +1855,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C17"
-			(at 0 -1.16 0)
+			(at 2.6 -0.1 0)
 			(layer "F.SilkS")
 			(uuid "8b424005-1aa8-4850-b9fd-3386d437543d")
 			(effects
@@ -2068,7 +2068,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 -1.16 90)
+			(at -0.5 -1.6375 180)
 			(layer "F.SilkS")
 			(uuid "75b42b12-ace0-43a3-af95-ffae34ba294d")
 			(effects
@@ -2539,6 +2539,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.8 0.8 0.8)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -2547,7 +2558,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.17 90)
+			(at -1.675 -0.45 180)
 			(layer "F.SilkS")
 			(uuid "4219e0bd-0c0a-406b-9f88-48bab7bb7273")
 			(effects
@@ -2760,7 +2771,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.16 0)
+			(at 0.05 2.675 0)
 			(layer "F.SilkS")
 			(uuid "be608808-e459-480e-9bd5-970652a7a46b")
 			(effects
@@ -2973,7 +2984,7 @@
 		(descr "SMD Crystal MicroCrystal CC7V-T1A/CM7V-T1A series https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CC7V-T1A.pdf, 3.2x1.5mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y2"
-			(at 0 -1.95 0)
+			(at 4 -0.98 0)
 			(layer "F.SilkS")
 			(uuid "4f76dafb-7f20-4c6c-b241-251b7754f1ea")
 			(effects
@@ -3206,7 +3217,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C9"
-			(at 0 -1.16 0)
+			(at 0.05 2.675 0)
 			(layer "F.SilkS")
 			(uuid "ef528fe1-6b17-4162-9fe0-fae7d8dc301d")
 			(effects
@@ -3419,7 +3430,7 @@
 		(descr "8-Lead Plastic VSON, 3x3mm Body, 0.65mm Pitch, S-PVSON-N8, http://www.ti.com/lit/ds/symlink/opa2333.pdf")
 		(tags "DFN 0.65 S-PVSON-N8")
 		(property "Reference" "U2"
-			(at 0 -2.5 0)
+			(at 0 2.675 0)
 			(layer "F.SilkS")
 			(uuid "f4eee25f-24f4-41f7-8008-695267fc4e03")
 			(effects
@@ -3865,7 +3876,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
-			(at 0 -1.16 90)
+			(at 0.52 -2 180)
 			(layer "F.SilkS")
 			(uuid "4ed40a20-2b0a-4ebf-8b15-be2998ba03eb")
 			(effects
@@ -4078,7 +4089,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
-			(at 0 -1.17 90)
+			(at 0 -1.5 180)
 			(layer "F.SilkS")
 			(uuid "64724b10-0203-4d40-af54-c50a7645aa66")
 			(effects
@@ -4291,7 +4302,7 @@
 		(descr "QFN, 32 Pin (http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-qfn/QFN_32_05-08-1693.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U3"
-			(at 0 -3.83 0)
+			(at -4.5 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "34875629-96e1-46fc-84e9-37bb720a0838")
 			(effects
@@ -4962,7 +4973,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.17 90)
+			(at -1.825 -0.55 180)
 			(layer "F.SilkS")
 			(uuid "4f2a32f9-9564-4f5a-bd2b-f3880eb2d77f")
 			(effects
@@ -5388,7 +5399,7 @@
 		(descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U4"
-			(at 0 -2.4 0)
+			(at -4.5 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "d60f033b-4b03-4c5b-b2fb-aadc7140a153")
 			(effects
@@ -5675,7 +5686,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.16 0)
+			(at -0.45 2.675 0)
 			(layer "F.SilkS")
 			(uuid "79adc898-120a-4023-b378-071c3bb8af1e")
 			(effects
@@ -5888,7 +5899,7 @@
 		(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf")
 		(tags "tag connect programming header pogo pins")
 		(property "Reference" "P2"
-			(at 0 5 90)
+			(at 2.96 -3 180)
 			(layer "F.SilkS")
 			(uuid "175f23f0-eff7-4a6c-888e-3af6782440b2")
 			(effects
@@ -6174,7 +6185,7 @@
 		(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
 		(tags "Tactile Switch")
 		(property "Reference" "SW2"
-			(at 0 -2.5 90)
+			(at -3.5 -1.2 180)
 			(layer "F.SilkS")
 			(uuid "97f60eb2-53f2-4d76-a59e-5c02ec2af8ac")
 			(effects
@@ -6437,7 +6448,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 0 -1.16 90)
+			(at 0 -1.5 180)
 			(layer "F.SilkS")
 			(uuid "be35e9fe-9c10-49c9-b7f1-13da15f5e5d1")
 			(effects
@@ -6650,7 +6661,7 @@
 		(descr "9-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector straight vertical THT female pitch 2.77x2.84mm mounting holes distance 25mm")
 		(property "Reference" "J1"
-			(at -5.54 -5.89 90)
+			(at 11.5 -4.5 180)
 			(layer "F.SilkS")
 			(uuid "a1dd2a14-d931-4e9c-8e7d-1be34e4d71f0")
 			(effects
@@ -7266,7 +7277,7 @@
 		(descr "Coilcraft 0603USB Series Common Mode Choke, https://www.coilcraft.com/pdfs/0603usb.pdf")
 		(tags "surface mount common mode bead")
 		(property "Reference" "FL1"
-			(at 0 1.7 90)
+			(at -2.675 -1.105 360)
 			(layer "F.SilkS")
 			(uuid "ffa203a1-eb17-4210-b82d-2372c66b204d")
 			(effects
@@ -7503,6 +7514,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XAL1580-741.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 0.0501 0.1001 0.1001)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -7511,7 +7533,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.16 90)
+			(at 0 -1.45 180)
 			(layer "F.SilkS")
 			(uuid "63d5d114-455c-444d-90cf-fd935bf1e60a")
 			(effects
@@ -7937,7 +7959,7 @@
 		(descr "16-pin USB-C receptacle, USB2.0 and PD, 5A VBUS rating, https://datasheet.lcsc.com/lcsc/2211161000_HCTL-HC-TYPE-C-16P-01A_C2894897.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "P1"
-			(at 0 -5.645 90)
+			(at 5.95 -3.925 180)
 			(layer "F.SilkS")
 			(uuid "02174a3d-450b-489e-85e5-c0a996720a15")
 			(effects
@@ -8414,6 +8436,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical"
 		(layer "B.Cu")
@@ -8422,7 +8455,7 @@
 		(descr "Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf")
 		(tags "Potentiometer vertical Bourns PTV09A-1 Single")
 		(property "Reference" "RV1"
-			(at 6.05 10.15 90)
+			(at -1.95 8 180)
 			(layer "B.SilkS")
 			(uuid "2d8db171-50fa-4aa5-881d-ffba05962904")
 			(effects
@@ -8871,6 +8904,18 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e64423a1-adb3-478e-b0bd-e766d3c06b78")
+	)
+	(gr_text "Throttle Encoder\nUCSC Railspeeder\n2025\n::<>"
+		(at 128 131.5 0)
+		(layer "F.SilkS")
+		(uuid "7bcc7cb9-e4f9-429c-ae4e-ed0827503b45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 119.07 114.675)
@@ -12464,31 +12509,29 @@
 			"0a91b937-dfab-427b-895e-a67df74d0a95" "0b93e1e8-bde2-46de-891c-994b697de757"
 			"14419300-eb19-441d-be71-9066ece043b2" "151205ac-c05d-4a75-83db-89e218524026"
 			"1b330060-34b4-4f63-a21c-ac6529f12f93" "1bab2fbf-3188-473d-a9de-08c9ef51709d"
-			"232dd8e0-ed5c-4132-b60b-2132d2867c72" "24e76180-97fe-4615-b3e9-a4a0ef60b711"
-			"268e09b4-23fa-4877-9093-25ae08b016ac" "2704e5e3-4b53-4645-8db5-b98d4d41a104"
+			"232dd8e0-ed5c-4132-b60b-2132d2867c72" "268e09b4-23fa-4877-9093-25ae08b016ac"
 			"2aa7d31f-2e3b-454b-860d-f27e8f837f97" "32de3818-c3b3-4232-84a0-5216957ade01"
 			"3c4beba1-7b03-4c05-b2f6-bb036992f92a" "3d3bc237-8092-4af0-99cd-0dc80eac21bc"
-			"3d464b61-07bc-4cb6-ba89-4ca4f3ac1b48" "42f287fe-be08-4319-9c39-db9eae66447f"
-			"43482814-4bdf-4299-88e4-a95270960fb6" "44e06cac-1d43-4024-9373-b41590156e03"
-			"453a20cb-3531-4e9e-926b-2c5fec693510" "46656e41-097f-4d48-b629-862ea922a358"
-			"4fefd201-b524-4f44-9194-9cd0a4d5a6a0" "580bdb46-ab86-479b-8316-820a20d4f87c"
-			"5a7cc46c-b883-42fb-9614-dcfbba1cda61" "5af0df83-afee-49c5-8f8b-745ad40d8d15"
-			"5d89463c-7020-429e-aa3d-3a0515dc018f" "5e8bf26b-1fb8-4aba-8782-e22a135f0993"
-			"5ea922eb-1303-41f2-adb2-d2ce4a874bbc" "613b2e2d-0d8c-4c4b-8441-f6972b0b6d76"
-			"6409b9a2-9516-4bac-a1d6-dc56737379ba" "66c55c2a-b5b3-4796-b804-1ff522e2c252"
-			"66f52a2e-e3e3-4d0e-a18b-65c65589e599" "693b2ac0-3fbd-4dc6-b012-6e42c40feff6"
-			"6951104e-e435-400b-96f2-094d6f66496a" "6a282244-1489-415c-b4f0-ef85b2a87e9d"
-			"6e24db36-29fe-4005-a19c-b2187a7b12e2" "70caf921-0d3c-489e-a24b-5fecdd838925"
-			"71e96fe2-ecb0-405a-8300-e5343317871e" "7379d778-b6af-4b40-a8cb-c047ef4aa694"
-			"76ca4c78-de39-42fb-98c9-a84066aa5e56" "78e10c29-4340-4c83-8b18-88693e0deff6"
-			"7a34a2ed-a503-4b0d-bbe5-87ef41c71f8e" "7fbafccc-18f7-471d-b39d-f32576c9cb2c"
-			"80329932-929e-4b5b-beeb-baac4f77d3bf" "847a21b1-1707-4826-ac37-9d904f0cfb2a"
-			"84c17703-9c6c-4f3f-9beb-762bacf76b49" "8b7036d5-7611-4ada-b99e-9301a64bf908"
-			"90591abb-91d1-4e74-9acf-c42b49489616" "95daa901-df5a-498f-afcb-c3ef008dddac"
-			"9607d46c-e7fe-4e74-9336-8bfc1f61dc34" "9e5878b5-b5b7-4d67-8a62-1878ece009a9"
-			"9eff01b6-54bb-4cb4-88ed-4ca4f8868352" "a181d7bf-37e1-4704-a000-11b1dc69c8e2"
-			"a289e4aa-0bf0-4ccc-bb39-9caa584029de" "a2fd8b98-eaa7-43b7-b294-f00f21fbff87"
-			"a41cd976-e189-4306-99d5-60fcd1858de6" "a75b5ed9-7e98-4278-ad08-e6cca171bdf5"
+			"3d464b61-07bc-4cb6-ba89-4ca4f3ac1b48" "43482814-4bdf-4299-88e4-a95270960fb6"
+			"44e06cac-1d43-4024-9373-b41590156e03" "453a20cb-3531-4e9e-926b-2c5fec693510"
+			"46656e41-097f-4d48-b629-862ea922a358" "4fefd201-b524-4f44-9194-9cd0a4d5a6a0"
+			"580bdb46-ab86-479b-8316-820a20d4f87c" "5a7cc46c-b883-42fb-9614-dcfbba1cda61"
+			"5af0df83-afee-49c5-8f8b-745ad40d8d15" "5d89463c-7020-429e-aa3d-3a0515dc018f"
+			"5e8bf26b-1fb8-4aba-8782-e22a135f0993" "5ea922eb-1303-41f2-adb2-d2ce4a874bbc"
+			"613b2e2d-0d8c-4c4b-8441-f6972b0b6d76" "6409b9a2-9516-4bac-a1d6-dc56737379ba"
+			"66c55c2a-b5b3-4796-b804-1ff522e2c252" "66f52a2e-e3e3-4d0e-a18b-65c65589e599"
+			"693b2ac0-3fbd-4dc6-b012-6e42c40feff6" "6951104e-e435-400b-96f2-094d6f66496a"
+			"6a282244-1489-415c-b4f0-ef85b2a87e9d" "6e24db36-29fe-4005-a19c-b2187a7b12e2"
+			"70caf921-0d3c-489e-a24b-5fecdd838925" "71e96fe2-ecb0-405a-8300-e5343317871e"
+			"7379d778-b6af-4b40-a8cb-c047ef4aa694" "76ca4c78-de39-42fb-98c9-a84066aa5e56"
+			"78e10c29-4340-4c83-8b18-88693e0deff6" "7a34a2ed-a503-4b0d-bbe5-87ef41c71f8e"
+			"7fbafccc-18f7-471d-b39d-f32576c9cb2c" "80329932-929e-4b5b-beeb-baac4f77d3bf"
+			"847a21b1-1707-4826-ac37-9d904f0cfb2a" "84c17703-9c6c-4f3f-9beb-762bacf76b49"
+			"8b7036d5-7611-4ada-b99e-9301a64bf908" "90591abb-91d1-4e74-9acf-c42b49489616"
+			"95daa901-df5a-498f-afcb-c3ef008dddac" "9607d46c-e7fe-4e74-9336-8bfc1f61dc34"
+			"9e5878b5-b5b7-4d67-8a62-1878ece009a9" "9eff01b6-54bb-4cb4-88ed-4ca4f8868352"
+			"a181d7bf-37e1-4704-a000-11b1dc69c8e2" "a289e4aa-0bf0-4ccc-bb39-9caa584029de"
+			"a2fd8b98-eaa7-43b7-b294-f00f21fbff87" "a41cd976-e189-4306-99d5-60fcd1858de6"
 			"a955dff5-3347-4753-be7a-18c336728735" "aa0e4b3b-e230-46cc-bb0d-6de49714ef37"
 			"ad8c081c-f42e-4bc2-bb93-0c73123bed43" "b0f1cd58-3cf1-4976-9f6f-059b34a659fa"
 			"b7f865f9-702d-47b4-b8a3-138af1a76933" "b8e062d1-263c-434e-8d0e-a0a61c9e64db"
