@@ -476,7 +476,7 @@
 		(at 113.58 64.855 90)
 		(descr "9-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector straight vertical THT female pitch 2.77x2.84mm mounting holes distance 25mm")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at -5.54 -5.89 90)
 			(layer "F.SilkS")
 			(uuid "dc791845-0105-485d-a6f1-ecf7b02cf6a1")
@@ -1092,7 +1092,7 @@
 		(at 79 73 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 3.5 0 -90)
 			(layer "F.SilkS")
 			(uuid "c8b59a7b-8b31-43f5-9d2f-01bd6b08850b")
@@ -1305,7 +1305,7 @@
 		(at 85.5 87 -90)
 		(descr "SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at -1.25 -6.25 180)
 			(layer "F.SilkS")
 			(uuid "d8447815-6dda-4575-8848-fb80cd6a7eda")
@@ -2131,19 +2131,19 @@
 			(uuid "dedb00d5-f4ba-46d8-b375-31f7c917c18b")
 		)
 		(pad "2" smd rect
-			(at -0.625 0.825)
+			(at 0.625 0.825)
 			(size 0.8 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 2 "Net-(C2-Pad2)")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "6ecef340-cb83-4f87-8e64-0e02ee7b372a")
+			(uuid "02828fdd-c5ad-4a0a-bdc6-dd9c79ce16ad")
 		)
 		(pad "3" smd rect
-			(at 0.625 0.825)
+			(at -0.625 0.825)
 			(size 0.8 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(uuid "02828fdd-c5ad-4a0a-bdc6-dd9c79ce16ad")
+			(uuid "6ecef340-cb83-4f87-8e64-0e02ee7b372a")
 		)
 		(pad "4" smd rect
 			(at 0.625 -0.825)
@@ -2180,7 +2180,7 @@
 		(at 87.42 72.845 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at -2.845 -0.08 90)
 			(layer "F.SilkS")
 			(uuid "25b31e4b-48cc-4dbf-a8f2-37b89f157219")
@@ -2393,7 +2393,7 @@
 		(at 69.025 72.75)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 2.675 -1.955 0)
 			(layer "F.SilkS")
 			(uuid "175802c6-3ec9-4be4-b9a1-1dcd02bbb804")
@@ -2606,7 +2606,7 @@
 		(at 160.08 64.855 90)
 		(descr "9-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector straight vertical THT female pitch 2.77x2.84mm mounting holes distance 25mm")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at -5.54 -5.89 90)
 			(layer "F.SilkS")
 			(uuid "73f7a1ed-68f7-46e8-b227-1ad2a077cc61")
@@ -3222,7 +3222,7 @@
 		(at 55.725 72.655 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C1"
+		(property "Reference" "C5"
 			(at -2.545 0.075 180)
 			(layer "F.SilkS")
 			(uuid "78345db6-0a71-4574-a7ac-8cc81988336c")
@@ -3435,7 +3435,7 @@
 		(at 66.525 74.25 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at -2.245 0.175 180)
 			(layer "F.SilkS")
 			(uuid "d8f131ca-9a73-4bea-b0ec-d2f84bf72ac6")
@@ -3648,7 +3648,7 @@
 		(at 85.42 75.845)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at -0.42 2.655 0)
 			(layer "F.SilkS")
 			(uuid "05442799-05b4-4cd0-8df2-16201070352b")
@@ -3861,7 +3861,7 @@
 		(at 82.325 82.475 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C12"
+		(property "Reference" "C8"
 			(at 0 1.475 0)
 			(layer "F.SilkS")
 			(uuid "eaae01d1-b142-40b8-ae37-ad1a199a23f4")
@@ -4074,7 +4074,7 @@
 		(at 77.5 73 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C13"
+		(property "Reference" "C9"
 			(at 3 0 -90)
 			(layer "F.SilkS")
 			(uuid "af2cccfd-68f3-4131-905c-1f7d1f9bbd00")
@@ -4287,7 +4287,7 @@
 		(at 88.92 72.845 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C21"
+		(property "Reference" "C20"
 			(at -3.095 -0.08 90)
 			(layer "F.SilkS")
 			(uuid "72bdc0e4-40ee-41e6-a5ae-d71d82f97a24")
@@ -4500,7 +4500,7 @@
 		(at 83.5 73 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C14"
+		(property "Reference" "C10"
 			(at 3 0 -90)
 			(layer "F.SilkS")
 			(uuid "ecd53e4e-a6f6-4c89-bc3c-0fd25441c68b")
@@ -4926,7 +4926,7 @@
 		(at 113.58 98.71 90)
 		(descr "9-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector straight vertical THT female pitch 2.77x2.84mm mounting holes distance 25mm")
-		(property "Reference" "J14"
+		(property "Reference" "J9"
 			(at -5.54 -5.89 90)
 			(layer "F.SilkS")
 			(uuid "f7f10085-ead4-43ed-9b7b-f6d5aadd4af9")
@@ -6086,7 +6086,7 @@
 		(uuid "7a6b00f4-b978-4a5b-bd4e-9b59c3244df1")
 		(at 85.499999 73.1491 -90)
 		(tags "TPS566242DRLR ")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 0.6009 -6.500001 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -6448,7 +6448,7 @@
 		(at 85.325 82.475 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C15"
+		(property "Reference" "C11"
 			(at 0 1.475 0)
 			(layer "F.SilkS")
 			(uuid "3fc0c4b2-7598-4218-9759-4d8797a111cc")
@@ -7274,10 +7274,10 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8fd4d39d-f2f7-4d23-bab1-d845121c133f")
-		(at 51.45 75.005 180)
+		(at 51.225 74.995)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "618c7879-15a9-4fc1-b277-548d89431cff")
@@ -7300,7 +7300,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7313,7 +7313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7326,7 +7326,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7344,16 +7344,6 @@
 		(sheetfile "can-backplane.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "304156d1-9f80-413c-bc44-fd21cff1392e")
-		)
-		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
 			(stroke
@@ -7364,34 +7354,14 @@
 			(uuid "bbc53ddb-a956-4b73-a6d4-da158a5e1a4d")
 		)
 		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
+			(start -0.14058 0.51)
+			(end 0.14058 0.51)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "72fca2da-daf0-49e6-9f71-d0374cbb2cf7")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7237b0d0-98c7-4812-b3dc-50ea5cb060e8")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b45193fb-d1a7-4c23-ae22-612d459b021a")
+			(layer "F.SilkS")
+			(uuid "304156d1-9f80-413c-bc44-fd21cff1392e")
 		)
 		(fp_line
 			(start -1.48 -0.73)
@@ -7404,24 +7374,44 @@
 			(uuid "1888ad29-4009-4d8c-8b96-b32753ed5d99")
 		)
 		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "a3ccb475-90b1-48d6-bd8a-6580a0e74ccd")
+			(layer "F.CrtYd")
+			(uuid "b45193fb-d1a7-4c23-ae22-612d459b021a")
 		)
 		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7237b0d0-98c7-4812-b3dc-50ea5cb060e8")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "72fca2da-daf0-49e6-9f71-d0374cbb2cf7")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "436a47da-ac56-4f37-92ce-c6d74a49fd17")
+			(uuid "e8f8ed16-0dce-494e-9bb7-813ba90dc2dd")
 		)
 		(fp_line
 			(start -0.8 0.4)
@@ -7434,14 +7424,24 @@
 			(uuid "5e0f8f3d-2e58-44ca-a8cd-0cbe02ac6d45")
 		)
 		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e8f8ed16-0dce-494e-9bb7-813ba90dc2dd")
+			(uuid "436a47da-ac56-4f37-92ce-c6d74a49fd17")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a3ccb475-90b1-48d6-bd8a-6580a0e74ccd")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -7455,7 +7455,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0 180)
+			(at -0.775 0)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -7464,7 +7464,7 @@
 			(uuid "ac762966-a4b9-485f-8ec1-e7c3384042ca")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0 180)
+			(at 0.775 0)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -7490,7 +7490,7 @@
 		(at 85.42 77.345)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C16"
+		(property "Reference" "C12"
 			(at 0.08 2.405 180)
 			(layer "F.SilkS")
 			(uuid "2fc27b52-151a-4a5b-9ff1-576f54ed9d8c")
@@ -7916,7 +7916,7 @@
 		(at 129.08 98.71 90)
 		(descr "9-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector straight vertical THT female pitch 2.77x2.84mm mounting holes distance 25mm")
-		(property "Reference" "J15"
+		(property "Reference" "J10"
 			(at -5.54 -5.89 90)
 			(layer "F.SilkS")
 			(uuid "6ba04a29-4754-40ca-979b-d222b0e7e66e")
@@ -8532,7 +8532,7 @@
 		(at 82 73 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C17"
+		(property "Reference" "C14"
 			(at 3 -0.25 -90)
 			(layer "F.SilkS")
 			(uuid "e2e0254c-96c1-4330-b373-aaddab4c886a")
@@ -8745,7 +8745,7 @@
 		(at 45.175 76.005)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at -2.975 0.095 0)
 			(layer "F.SilkS")
 			(uuid "103f17a1-b0d1-4f72-b2b5-63799da7dbeb")
@@ -8958,7 +8958,7 @@
 		(at 79 70 90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 3 -0.25 180)
 			(layer "F.SilkS")
 			(uuid "d5727473-420a-48ea-95d5-ebb96a805a40")
@@ -9406,7 +9406,7 @@
 		(at 175.58 98.71 90)
 		(descr "9-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector straight vertical THT female pitch 2.77x2.84mm mounting holes distance 25mm")
-		(property "Reference" "J18"
+		(property "Reference" "J13"
 			(at -5.54 -5.89 90)
 			(layer "F.SilkS")
 			(uuid "d024e945-71ef-4977-922c-3592a3548c49")
@@ -10022,7 +10022,7 @@
 		(at 69.025 70.75 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C7"
+		(property "Reference" "C15"
 			(at 0.125 1.655 0)
 			(layer "F.SilkS")
 			(uuid "06f1dc64-b1c8-40dd-b4f0-cd359d062a37")
@@ -10235,7 +10235,7 @@
 		(at 89.1 80.975 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 0.1 1.475 0)
 			(layer "F.SilkS")
 			(uuid "6686faa6-8ada-48b4-89f1-a18748555efa")
@@ -10448,7 +10448,7 @@
 		(at 58.725 74.655 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "553d0db6-39eb-468d-aa29-e1f2d3e99cb3")
@@ -11241,7 +11241,7 @@
 		(at 144.58 64.855 90)
 		(descr "9-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector straight vertical THT female pitch 2.77x2.84mm mounting holes distance 25mm")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at -5.54 -5.89 90)
 			(layer "F.SilkS")
 			(uuid "973524a2-9aff-4ad3-a073-77a179cf93f3")
@@ -12891,7 +12891,7 @@
 		(at 98.24 81.96 90)
 		(descr "9-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector straight vertical THT female pitch 2.77x2.84mm mounting holes distance 25mm")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at -5.54 -5.89 90)
 			(layer "F.SilkS")
 			(uuid "b5534e8f-9bcd-464d-926e-e07b4d788840")
@@ -14123,7 +14123,7 @@
 		(at 51.45 69.505 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at -2.95 -0.095 0)
 			(layer "F.SilkS")
 			(uuid "ceb02bea-c808-49ed-bab5-0aa910edc712")
@@ -14336,7 +14336,7 @@
 		(at 160.08 98.71 90)
 		(descr "9-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector straight vertical THT female pitch 2.77x2.84mm mounting holes distance 25mm")
-		(property "Reference" "J16"
+		(property "Reference" "J12"
 			(at -5.54 -5.89 90)
 			(layer "F.SilkS")
 			(uuid "404dcc2f-972a-4ee7-b763-54d16c4c8d6e")
@@ -14952,7 +14952,7 @@
 		(at 144.58 98.71 90)
 		(descr "9-pin D-Sub connector, straight/vertical, THT-mount, female, pitch 2.77x2.84mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
 		(tags "9-pin D-Sub connector straight vertical THT female pitch 2.77x2.84mm mounting holes distance 25mm")
-		(property "Reference" "J17"
+		(property "Reference" "J11"
 			(at -5.54 -5.89 90)
 			(layer "F.SilkS")
 			(uuid "00fa967e-19a0-411c-b4d1-692ba535291f")
@@ -15568,7 +15568,7 @@
 		(at 80.5 73 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C10"
+		(property "Reference" "C16"
 			(at 3 0 -90)
 			(layer "F.SilkS")
 			(uuid "b7736105-02ef-451b-ba67-ba43db2bef18")
@@ -15781,7 +15781,7 @@
 		(at 71.82 72.75 180)
 		(descr "SOT-416, https://www.nxp.com/docs/en/package-information/SOT416.pdf")
 		(tags "SOT-416")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at -0.18 -1.945 0)
 			(layer "F.SilkS")
 			(uuid "6f307f9a-1cee-478a-a5d5-861bae5695b1")
@@ -16057,7 +16057,7 @@
 		(uuid "f69a310c-f1f9-414f-85f8-6562afabcd0e")
 		(at 101.6951 65 180)
 		(tags "2601-1102 ")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 8.6951 10 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -16082,7 +16082,7 @@
 			)
 		)
 		(property "Footprint" "railspeeder:CONN2_2601-1102_WAG"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "15f4cb40-4551-44ef-9652-5ad08d53fd42")
@@ -16094,7 +16094,7 @@
 			)
 		)
 		(property "Datasheet" "2601-1102"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8595e51e-f49e-47f9-9f97-0ad7bbf2e453")
@@ -16106,7 +16106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "42fbc0c2-3cea-4838-8566-8e40e48a8503")
@@ -16539,7 +16539,7 @@
 		(at 69.025 74.75 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C11"
+		(property "Reference" "C17"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "e620a2f7-58fd-4364-ba8f-caa07620dff4")
@@ -17840,6 +17840,32 @@
 		(layer "Edge.Cuts")
 		(uuid "f8a72e3c-df38-4e27-b098-f88c4a597d89")
 	)
+	(gr_text "CAN Backplane\nUCSC\nRailspeeder\n2025\n::<>"
+		(at 91 122 0)
+		(layer "F.SilkS")
+		(uuid "03b246c6-c535-4400-9716-cefa69968f83")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RS-232"
+		(at 95 106 0)
+		(layer "F.SilkS")
+		(uuid "9708bde8-90a0-4333-a3e6-29d7b7b8d8f9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 45.95 76.005)
 		(end 46.995 76.005)
@@ -17969,14 +17995,6 @@
 		(uuid "7acd12f7-c094-4b22-be8f-20b7bfe3ee46")
 	)
 	(segment
-		(start 52.995 75.005)
-		(end 53 75)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "7f6c1c96-ef29-4fab-8382-374e9c566953")
-	)
-	(segment
 		(start 58.7 72.690614)
 		(end 58.414386 72.405)
 		(width 0.2)
@@ -18073,8 +18091,8 @@
 		(uuid "daffec8a-43dc-47c7-b312-b0b599b341f2")
 	)
 	(segment
-		(start 52.225 75.005)
-		(end 52.995 75.005)
+		(start 50.45 74.995)
+		(end 49.68 74.995)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
@@ -18183,7 +18201,7 @@
 		(uuid "351e70c3-6444-44f3-b8f7-a7214e329984")
 	)
 	(via
-		(at 53 75)
+		(at 49.675 75)
 		(size 0.3)
 		(drill 0.15)
 		(layers "F.Cu" "B.Cu")
@@ -18339,36 +18357,52 @@
 		(uuid "f3406787-c8bd-424c-9d60-2cc6b437524b")
 	)
 	(segment
-		(start 48.7 73.48)
-		(end 50.375 73.48)
+		(start 51.95 73.105)
+		(end 51.25 72.405)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "3d49c276-8067-4405-9769-0db7c357549c")
+		(uuid "6addd3c6-3eae-4825-8dbd-21831b942d9f")
 	)
 	(segment
-		(start 50.675 75.005)
-		(end 50.675 73.18)
+		(start 51.95 73.155)
+		(end 51.95 73.105)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "4eb33286-b8ca-48cc-a2ba-8952db1533cb")
+		(uuid "9ac2d92b-e009-429c-8945-5669f90190de")
 	)
 	(segment
-		(start 50.375 73.48)
-		(end 50.7 73.155)
+		(start 52 73.205)
+		(end 51.95 73.155)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "758f3e75-fe70-440c-8738-cfef7d673403")
+		(uuid "a53a6118-d402-4655-8a2e-e39d84374fef")
 	)
 	(segment
-		(start 50.675 73.18)
-		(end 50.7 73.155)
+		(start 52 74.995)
+		(end 52 73.205)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "aedb201e-189c-4313-860e-5ee9ddc438e3")
+		(uuid "a76434f7-4119-4269-8f10-71a61ca1ed64")
+	)
+	(segment
+		(start 49.775 72.405)
+		(end 48.7 73.48)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "cbedf0e1-d00b-4029-98aa-65383825c8e8")
+	)
+	(segment
+		(start 51.25 72.405)
+		(end 49.775 72.405)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "f5cf06bc-f331-4c7c-aa95-d65377519efa")
 	)
 	(segment
 		(start 55.725 73.43)
@@ -25098,27 +25132,28 @@
 				(xy 43.741413 75.787095) (xy 43.840339 75.8375) (xy 43.95 75.854869) (xy 44.059661 75.8375) (xy 44.158587 75.787095)
 				(xy 44.237095 75.708587) (xy 44.2875 75.609661) (xy 44.2875 75.609656) (xy 44.289906 75.602254)
 				(xy 44.292711 75.603165) (xy 44.3144 75.56057) (xy 44.314421 75.560549) (xy 44.995476 74.879496)
-				(xy 45.049992 74.851719) (xy 45.065479 74.8505) (xy 52.552896 74.8505) (xy 52.611087 74.869407)
-				(xy 52.647051 74.918907) (xy 52.650676 74.964986) (xy 52.645131 75) (xy 52.6625 75.109661) (xy 52.712905 75.208587)
-				(xy 52.791413 75.287095) (xy 52.890339 75.3375) (xy 53 75.354869) (xy 53.109661 75.3375) (xy 53.208587 75.287095)
-				(xy 53.287095 75.208587) (xy 53.3375 75.109661) (xy 53.354869 75) (xy 53.3375 74.890339) (xy 53.287095 74.791413)
-				(xy 53.280327 74.784645) (xy 53.252552 74.730131) (xy 53.262123 74.669699) (xy 53.280326 74.644643)
-				(xy 54.424969 73.5) (xy 56.645131 73.5) (xy 56.6625 73.609661) (xy 56.712905 73.708587) (xy 56.791413 73.787095)
-				(xy 56.890339 73.8375) (xy 57 73.854869) (xy 57.109661 73.8375) (xy 57.208587 73.787095) (xy 57.287095 73.708587)
-				(xy 57.3375 73.609661) (xy 57.354869 73.5) (xy 57.3375 73.390339) (xy 57.287095 73.291413) (xy 57.208587 73.212905)
-				(xy 57.109661 73.1625) (xy 57 73.145131) (xy 56.890338 73.1625) (xy 56.791413 73.212905) (xy 56.712905 73.291413)
-				(xy 56.6625 73.390338) (xy 56.649729 73.470973) (xy 56.645131 73.5) (xy 54.424969 73.5) (xy 56.01997 71.905)
-				(xy 56.740131 71.905) (xy 56.7575 72.014661) (xy 56.807905 72.113587) (xy 56.862803 72.168485) (xy 56.890579 72.223)
-				(xy 56.881009 72.28343) (xy 56.855252 72.333983) (xy 56.854532 72.338532) (xy 56.837883 72.443645)
-				(xy 56.855252 72.553306) (xy 56.905657 72.652232) (xy 56.984165 72.73074) (xy 57.083091 72.781145)
-				(xy 57.192752 72.798514) (xy 57.302413 72.781145) (xy 57.401339 72.73074) (xy 57.479847 72.652232)
-				(xy 57.530252 72.553306) (xy 57.547621 72.443645) (xy 57.530252 72.333984) (xy 57.479847 72.235058)
-				(xy 57.424946 72.180157) (xy 57.397171 72.125643) (xy 57.406741 72.065215) (xy 57.4325 72.014661)
-				(xy 57.449869 71.905) (xy 57.4325 71.795339) (xy 57.382095 71.696413) (xy 57.303587 71.617905) (xy 57.204661 71.5675)
-				(xy 57.095 71.550131) (xy 56.985338 71.5675) (xy 56.886413 71.617905) (xy 56.807905 71.696413) (xy 56.7575 71.795338)
-				(xy 56.747648 71.857543) (xy 56.740131 71.905) (xy 56.01997 71.905) (xy 56.929999 70.994971) (xy 56.984512 70.967197)
-				(xy 57.044944 70.976768) (xy 57.070003 70.994974) (xy 59.670504 73.595475) (xy 59.698281 73.649992)
-				(xy 59.6995 73.665479) (xy 59.6995 74.293954) (xy 59.68871 74.338898) (xy 59.662501 74.390335) (xy 59.662499 74.390341)
+				(xy 45.049992 74.851719) (xy 45.065479 74.8505) (xy 49.227896 74.8505) (xy 49.286087 74.869407)
+				(xy 49.322051 74.918907) (xy 49.325676 74.964986) (xy 49.320131 75) (xy 49.3375 75.109661) (xy 49.387905 75.208587)
+				(xy 49.466413 75.287095) (xy 49.565339 75.3375) (xy 49.675 75.354869) (xy 49.784661 75.3375) (xy 49.883587 75.287095)
+				(xy 49.962095 75.208587) (xy 50.0125 75.109661) (xy 50.029869 75) (xy 50.024323 74.964986) (xy 50.033894 74.904556)
+				(xy 50.077157 74.861291) (xy 50.122104 74.8505) (xy 52.989563 74.8505) (xy 52.989563 74.850499)
+				(xy 53.065989 74.830021) (xy 53.134511 74.79046) (xy 53.19046 74.734511) (xy 54.424971 73.5) (xy 56.645131 73.5)
+				(xy 56.6625 73.609661) (xy 56.712905 73.708587) (xy 56.791413 73.787095) (xy 56.890339 73.8375)
+				(xy 57 73.854869) (xy 57.109661 73.8375) (xy 57.208587 73.787095) (xy 57.287095 73.708587) (xy 57.3375 73.609661)
+				(xy 57.354869 73.5) (xy 57.3375 73.390339) (xy 57.287095 73.291413) (xy 57.208587 73.212905) (xy 57.109661 73.1625)
+				(xy 57 73.145131) (xy 56.890338 73.1625) (xy 56.791413 73.212905) (xy 56.712905 73.291413) (xy 56.6625 73.390338)
+				(xy 56.649729 73.470973) (xy 56.645131 73.5) (xy 54.424971 73.5) (xy 56.019971 71.905) (xy 56.740131 71.905)
+				(xy 56.7575 72.014661) (xy 56.807905 72.113587) (xy 56.862803 72.168485) (xy 56.890579 72.223) (xy 56.881009 72.28343)
+				(xy 56.855252 72.333983) (xy 56.854532 72.338532) (xy 56.837883 72.443645) (xy 56.855252 72.553306)
+				(xy 56.905657 72.652232) (xy 56.984165 72.73074) (xy 57.083091 72.781145) (xy 57.192752 72.798514)
+				(xy 57.302413 72.781145) (xy 57.401339 72.73074) (xy 57.479847 72.652232) (xy 57.530252 72.553306)
+				(xy 57.547621 72.443645) (xy 57.530252 72.333984) (xy 57.479847 72.235058) (xy 57.424946 72.180157)
+				(xy 57.397171 72.125643) (xy 57.406741 72.065215) (xy 57.4325 72.014661) (xy 57.449869 71.905) (xy 57.4325 71.795339)
+				(xy 57.382095 71.696413) (xy 57.303587 71.617905) (xy 57.204661 71.5675) (xy 57.095 71.550131) (xy 56.985338 71.5675)
+				(xy 56.886413 71.617905) (xy 56.807905 71.696413) (xy 56.7575 71.795338) (xy 56.747648 71.857543)
+				(xy 56.740131 71.905) (xy 56.019971 71.905) (xy 56.929996 70.994975) (xy 56.984513 70.967198) (xy 57.044945 70.976769)
+				(xy 57.070004 70.994975) (xy 59.670504 73.595475) (xy 59.698281 73.649992) (xy 59.6995 73.665479)
+				(xy 59.6995 74.293954) (xy 59.68871 74.338898) (xy 59.662501 74.390335) (xy 59.662499 74.390341)
 				(xy 59.645131 74.499999) (xy 59.645131 74.5) (xy 59.6625 74.609661) (xy 59.712905 74.708587) (xy 59.791413 74.787095)
 				(xy 59.890339 74.8375) (xy 59.89034 74.8375) (xy 59.897747 74.839907) (xy 59.896835 74.842712) (xy 59.939432 74.864404)
 				(xy 59.939449 74.86442) (xy 72.315489 87.24046) (xy 72.315491 87.240461) (xy 72.315492 87.240462)
